@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chibi penguin girl</title>
+    <!-- Подключаем Tailwind CSS для красивого оформления -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            /* Мягкий градиент на фоне */
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center p-4 sm:p-8 font-sans text-gray-800">
+
+    <!-- Главный контейнер (карточка) -->
+    <main class="max-w-4xl w-full bg-white rounded-3xl shadow-2xl overflow-hidden p-6 sm:p-10 text-center space-y-8">
+        
+        <header>
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
+                Chibi Penguin Girl
+            </h1>
+            <p class="mt-2 text-gray-500">
+                Концепт-арт и референс персонажа
+            </p>
+        </header>
+
+        <!-- Контейнер для изображения -->
+        <div class="relative rounded-2xl overflow-hidden border border-gray-100 shadow-inner bg-gray-50 flex justify-center items-center p-4">
+            <!-- 
+              Атрибут src указывает на файл картинки.
+              Важно: при загрузке на GitHub убедитесь, что картинка называется точно так же и лежит в той же папке, что и index.html
+            -->
+            <img 
+                src="chibi%20penguin%20girl.png" 
+                alt="Chibi Penguin Girl Reference" 
+                onerror="this.onerror=null; this.src='https://placehold.co/600x600/f3f4f6/a1a1aa.png?text=Картинка+не+найдена%5CnПоложите+файл+с+картинкой%5Cnв+одну+папку+с+index.html'"
+                class="w-full h-auto max-h-[70vh] object-contain rounded-xl transition-transform duration-500 hover:scale-[1.01]"
+            >
+        </div>
+
+        <!-- Кнопка скачивания -->
+        <div>
+            <a 
+                href="chibi%20penguin%20girl.png" 
+                download="chibi penguin girl.png"
+                class="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-indigo-600 rounded-full hover:bg-indigo-700 transition-all duration-300 shadow-lg hover:shadow-indigo-500/30 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-indigo-300"
+            >
+                <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                </svg>
+                Скачать изображение
+            </a>
+        </div>
+
+    </main>
+
+    <!-- Подвал страницы -->
+    <footer class="mt-8 text-sm text-gray-500 font-medium">
+        Размещено на GitHub Pages
+    </footer>
+
+</body>
+</html>
