@@ -1,0 +1,16 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="100" cy="100" r="90" fill="#2d3748"></circle> <!-- Body dark -->
+                <ellipse cx="100" cy="110" rx="60" ry="70" fill="#ffffff"></ellipse> <!-- Belly -->
+                <circle cx="70" cy="80" r="10" fill="#1a202c"></circle> <!-- Left Eye -->
+                <circle cx="130" cy="80" r="10" fill="#1a202c"></circle> <!-- Right Eye -->
+                <path d="M 90 100 Q 100 115 110 100 Z" fill="#ed8936"></path> <!-- Beak -->
+                <path d="M 40 100 Q 20 120 40 140" stroke="#2d3748" stroke-width="15" fill="none" stroke-linecap="round"></path> <!-- Left Flipper -->
+                <path d="M 160 100 Q 180 120 160 140" stroke="#2d3748" stroke-width="15" fill="none" stroke-linecap="round"></path> <!-- Right Flipper -->
+                <path d="M 70 180 Q 80 190 90 180 Z" fill="#ed8936"></path> <!-- Left Foot -->
+                <path d="M 110 180 Q 120 190 130 180 Z" fill="#ed8936"></path> <!-- Right Foot -->
+                <circle cx="100" cy="40" r="15" fill="#f687b3"></circle> <!-- Bow center -->
+                <path d="M 100 40 L 70 20 L 70 60 Z" fill="#f687b3"></path> <!-- Bow left -->
+                <path d="M 100 40 L 130 20 L 130 60 Z" fill="#f687b3"></path> <!-- Bow right -->
+                <circle cx="60" cy="95" r="8" fill="#fbb6ce" opacity="0.6"></circle> <!-- Blush L -->
+                <circle cx="140" cy="95" r="8" fill="#fbb6ce" opacity="0.6"></circle> <!-- Blush R -->
+            </svg>
